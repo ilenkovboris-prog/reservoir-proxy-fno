@@ -1,0 +1,44 @@
+device: cuda arch: ufno
+прогоны train/val/test 40/5/5 | Δp [-125.75, 89.31] бар
+параметров: 4,433,090  шагов train: 400
+ep   0/300 | train 11.0054 | val qo rel 0.0325 MAE 2.25 | qw rel 0.2087 MAE 2.25 | cum oil rel 0.0379 | MAE_p 18.73 бар MAE_Sw 0.0159 | rel Δp 2.3738 rel ΔS 1.3466 | rollout 10 qo rel 0.1100 cum 0.1422 | r2_qo 0.993 диагн. | 4s/ep
+ep  10/300 | train 1.9158 | val qo rel 0.0135 MAE 0.77 | qw rel 0.0873 MAE 0.77 | cum oil rel 0.0058 | MAE_p 7.55 бар MAE_Sw 0.0047 | rel Δp 1.1706 rel ΔS 0.5154 | rollout 10 qo rel 0.0864 cum 0.0627 | r2_qo 0.999 диагн. | 2s/ep
+ep  20/300 | train 1.3900 | val qo rel 0.0119 MAE 0.83 | qw rel 0.0757 MAE 0.83 | cum oil rel 0.0044 | MAE_p 6.51 бар MAE_Sw 0.0056 | rel Δp 0.8488 rel ΔS 0.4389 | rollout 10 qo rel 0.0544 cum 0.0251 | r2_qo 0.999 диагн. | 2s/ep
+ep  30/300 | train 1.1819 | val qo rel 0.0080 MAE 0.61 | qw rel 0.0510 MAE 0.61 | cum oil rel 0.0059 | MAE_p 4.36 бар MAE_Sw 0.0050 | rel Δp 0.5843 rel ΔS 0.3799 | rollout 10 qo rel 0.0411 cum 0.0337 | r2_qo 1.000 диагн. | 2s/ep
+ep  40/300 | train 0.9901 | val qo rel 0.0077 MAE 0.43 | qw rel 0.0509 MAE 0.43 | cum oil rel 0.0037 | MAE_p 3.57 бар MAE_Sw 0.0026 | rel Δp 0.5147 rel ΔS 0.2899 | rollout 10 qo rel 0.0266 cum 0.0209 | r2_qo 1.000 диагн. | 2s/ep
+ep  50/300 | train 0.7943 | val qo rel 0.0053 MAE 0.25 | qw rel 0.0320 MAE 0.25 | cum oil rel 0.0036 | MAE_p 4.13 бар MAE_Sw 0.0017 | rel Δp 0.5491 rel ΔS 0.3040 | rollout 10 qo rel 0.0188 cum 0.0181 | r2_qo 1.000 диагн. | 2s/ep
+ep  60/300 | train 0.5762 | val qo rel 0.0066 MAE 0.33 | qw rel 0.0400 MAE 0.33 | cum oil rel 0.0059 | MAE_p 2.87 бар MAE_Sw 0.0021 | rel Δp 0.4423 rel ΔS 0.2768 | rollout 10 qo rel 0.0267 cum 0.0310 | r2_qo 1.000 диагн. | 2s/ep
+ep  70/300 | train 0.5071 | val qo rel 0.0083 MAE 0.38 | qw rel 0.0591 MAE 0.38 | cum oil rel 0.0041 | MAE_p 2.03 бар MAE_Sw 0.0021 | rel Δp 0.3273 rel ΔS 0.2911 | rollout 10 qo rel 0.0404 cum 0.0464 | r2_qo 1.000 диагн. | 2s/ep
+ep  80/300 | train 0.4425 | val qo rel 0.0059 MAE 0.29 | qw rel 0.0414 MAE 0.29 | cum oil rel 0.0032 | MAE_p 3.52 бар MAE_Sw 0.0016 | rel Δp 0.4991 rel ΔS 0.2738 | rollout 10 qo rel 0.0156 cum 0.0111 | r2_qo 1.000 диагн. | 2s/ep
+ep  90/300 | train 0.3856 | val qo rel 0.0076 MAE 0.40 | qw rel 0.0516 MAE 0.40 | cum oil rel 0.0040 | MAE_p 1.85 бар MAE_Sw 0.0021 | rel Δp 0.2838 rel ΔS 0.2636 | rollout 10 qo rel 0.0246 cum 0.0295 | r2_qo 1.000 диагн. | 2s/ep
+ep 100/300 | train 0.3049 | val qo rel 0.0069 MAE 0.28 | qw rel 0.0482 MAE 0.28 | cum oil rel 0.0040 | MAE_p 1.65 бар MAE_Sw 0.0015 | rel Δp 0.2656 rel ΔS 0.2648 | rollout 10 qo rel 0.0212 cum 0.0228 | r2_qo 1.000 диагн. | 2s/ep
+ep 110/300 | train 0.2631 | val qo rel 0.0060 MAE 0.25 | qw rel 0.0383 MAE 0.25 | cum oil rel 0.0046 | MAE_p 1.68 бар MAE_Sw 0.0014 | rel Δp 0.2635 rel ΔS 0.2620 | rollout 10 qo rel 0.0167 cum 0.0144 | r2_qo 1.000 диагн. | 2s/ep
+ep 120/300 | train 0.2445 | val qo rel 0.0056 MAE 0.22 | qw rel 0.0361 MAE 0.22 | cum oil rel 0.0030 | MAE_p 1.75 бар MAE_Sw 0.0013 | rel Δp 0.2827 rel ΔS 0.2424 | rollout 10 qo rel 0.0158 cum 0.0152 | r2_qo 1.000 диагн. | 2s/ep
+ep 130/300 | train 0.2562 | val qo rel 0.0054 MAE 0.23 | qw rel 0.0346 MAE 0.23 | cum oil rel 0.0030 | MAE_p 1.85 бар MAE_Sw 0.0014 | rel Δp 0.2963 rel ΔS 0.2543 | rollout 10 qo rel 0.0149 cum 0.0131 | r2_qo 1.000 диагн. | 2s/ep
+ep 140/300 | train 0.2492 | val qo rel 0.0051 MAE 0.22 | qw rel 0.0323 MAE 0.22 | cum oil rel 0.0024 | MAE_p 2.27 бар MAE_Sw 0.0014 | rel Δp 0.3557 rel ΔS 0.2586 | rollout 10 qo rel 0.0132 cum 0.0105 | r2_qo 1.000 диагн. | 2s/ep
+ep 150/300 | train 0.1981 | val qo rel 0.0057 MAE 0.22 | qw rel 0.0348 MAE 0.22 | cum oil rel 0.0033 | MAE_p 1.61 бар MAE_Sw 0.0012 | rel Δp 0.2591 rel ΔS 0.2537 | rollout 10 qo rel 0.0175 cum 0.0164 | r2_qo 1.000 диагн. | 2s/ep
+ep 160/300 | train 0.1819 | val qo rel 0.0055 MAE 0.23 | qw rel 0.0345 MAE 0.23 | cum oil rel 0.0033 | MAE_p 1.70 бар MAE_Sw 0.0014 | rel Δp 0.2699 rel ΔS 0.2543 | rollout 10 qo rel 0.0181 cum 0.0191 | r2_qo 1.000 диагн. | 2s/ep
+ep 170/300 | train 0.1950 | val qo rel 0.0056 MAE 0.23 | qw rel 0.0359 MAE 0.23 | cum oil rel 0.0031 | MAE_p 1.60 бар MAE_Sw 0.0012 | rel Δp 0.2572 rel ΔS 0.2495 | rollout 10 qo rel 0.0159 cum 0.0145 | r2_qo 1.000 диагн. | 2s/ep
+ep 180/300 | train 0.1509 | val qo rel 0.0054 MAE 0.22 | qw rel 0.0340 MAE 0.22 | cum oil rel 0.0034 | MAE_p 1.69 бар MAE_Sw 0.0013 | rel Δp 0.2687 rel ΔS 0.2498 | rollout 10 qo rel 0.0147 cum 0.0129 | r2_qo 1.000 диагн. | 2s/ep
+ep 190/300 | train 0.1601 | val qo rel 0.0053 MAE 0.21 | qw rel 0.0340 MAE 0.21 | cum oil rel 0.0027 | MAE_p 1.63 бар MAE_Sw 0.0012 | rel Δp 0.2549 rel ΔS 0.2417 | rollout 10 qo rel 0.0143 cum 0.0137 | r2_qo 1.000 диагн. | 2s/ep
+ep 200/300 | train 0.1347 | val qo rel 0.0055 MAE 0.22 | qw rel 0.0343 MAE 0.22 | cum oil rel 0.0030 | MAE_p 1.53 бар MAE_Sw 0.0013 | rel Δp 0.2437 rel ΔS 0.2448 | rollout 10 qo rel 0.0153 cum 0.0153 | r2_qo 1.000 диагн. | 3s/ep
+ep 210/300 | train 0.1290 | val qo rel 0.0054 MAE 0.22 | qw rel 0.0342 MAE 0.22 | cum oil rel 0.0029 | MAE_p 1.62 бар MAE_Sw 0.0012 | rel Δp 0.2574 rel ΔS 0.2454 | rollout 10 qo rel 0.0156 cum 0.0153 | r2_qo 1.000 диагн. | 2s/ep
+ep 220/300 | train 0.1188 | val qo rel 0.0054 MAE 0.21 | qw rel 0.0344 MAE 0.21 | cum oil rel 0.0034 | MAE_p 1.67 бар MAE_Sw 0.0012 | rel Δp 0.2647 rel ΔS 0.2431 | rollout 10 qo rel 0.0147 cum 0.0145 | r2_qo 1.000 диагн. | 2s/ep
+ep 230/300 | train 0.1226 | val qo rel 0.0057 MAE 0.23 | qw rel 0.0356 MAE 0.23 | cum oil rel 0.0040 | MAE_p 1.69 бар MAE_Sw 0.0014 | rel Δp 0.2676 rel ΔS 0.2497 | rollout 10 qo rel 0.0184 cum 0.0195 | r2_qo 1.000 диагн. | 2s/ep
+ep 240/300 | train 0.1185 | val qo rel 0.0055 MAE 0.22 | qw rel 0.0348 MAE 0.22 | cum oil rel 0.0033 | MAE_p 1.55 бар MAE_Sw 0.0013 | rel Δp 0.2472 rel ΔS 0.2447 | rollout 10 qo rel 0.0154 cum 0.0157 | r2_qo 1.000 диагн. | 2s/ep
+ep 250/300 | train 0.1102 | val qo rel 0.0056 MAE 0.22 | qw rel 0.0354 MAE 0.22 | cum oil rel 0.0034 | MAE_p 1.57 бар MAE_Sw 0.0012 | rel Δp 0.2480 rel ΔS 0.2464 | rollout 10 qo rel 0.0158 cum 0.0149 | r2_qo 1.000 диагн. | 2s/ep
+ep 260/300 | train 0.1009 | val qo rel 0.0056 MAE 0.22 | qw rel 0.0351 MAE 0.22 | cum oil rel 0.0029 | MAE_p 1.56 бар MAE_Sw 0.0012 | rel Δp 0.2474 rel ΔS 0.2465 | rollout 10 qo rel 0.0155 cum 0.0143 | r2_qo 1.000 диагн. | 2s/ep
+ep 270/300 | train 0.1001 | val qo rel 0.0052 MAE 0.21 | qw rel 0.0337 MAE 0.21 | cum oil rel 0.0026 | MAE_p 1.56 бар MAE_Sw 0.0012 | rel Δp 0.2466 rel ΔS 0.2427 | rollout 10 qo rel 0.0146 cum 0.0138 | r2_qo 1.000 диагн. | 2s/ep
+ep 280/300 | train 0.0947 | val qo rel 0.0054 MAE 0.22 | qw rel 0.0344 MAE 0.22 | cum oil rel 0.0028 | MAE_p 1.56 бар MAE_Sw 0.0012 | rel Δp 0.2474 rel ΔS 0.2428 | rollout 10 qo rel 0.0147 cum 0.0139 | r2_qo 1.000 диагн. | 2s/ep
+ep 290/300 | train 0.1074 | val qo rel 0.0054 MAE 0.22 | qw rel 0.0344 MAE 0.22 | cum oil rel 0.0029 | MAE_p 1.55 бар MAE_Sw 0.0012 | rel Δp 0.2451 rel ΔS 0.2460 | rollout 10 qo rel 0.0144 cum 0.0128 | r2_qo 1.000 диагн. | 2s/ep
+ep 299/300 | train 0.0966 | val qo rel 0.0055 MAE 0.22 | qw rel 0.0350 MAE 0.22 | cum oil rel 0.0031 | MAE_p 1.56 бар MAE_Sw 0.0012 | rel Δp 0.2467 rel ΔS 0.2459 | rollout 10 qo rel 0.0152 cum 0.0139 | r2_qo 1.000 диагн. | 2s/ep
+Traceback (most recent call last):
+  File "/home/user/reservoir-proxy-fno/train_v2.py", line 518, in <module>
+    main()
+  File "/home/user/reservoir-proxy-fno/train_v2.py", line 502, in main
+    qo_true, qo_hat = collect_qo_scatter(model, test_runs, norm, prod_idx, device)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/reservoir-proxy-fno/train_v2.py", line 338, in collect_qo_scatter
+    pred.append(qo[0].cpu().numpy())
+                ^^^^^^^^^^^^^^^^^^^
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.
